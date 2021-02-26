@@ -11,12 +11,14 @@
 }
 
 .transactionHistory > thead {
-  background-color: #853c79;
+  background-color: #00bcd5;
+
   font-size: 13px;
   letter-spacing: 1px;
   line-height: 30px;
   color: #ffffff;
   font-weight: bold;
+  text-transform: uppercase;
 }
 
 thead th {
@@ -27,6 +29,6 @@ thead th:not(:last-child) {
 }
 
 tbody tr:nth-child(even) {
-  background-color: #f8b6fa;
+  background-color: #ecf1f3;
   filter: drop-shadow(0px 2px 1.5px rgba(0, 0, 0, 0.25));
 }
